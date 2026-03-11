@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:8000/api"
+  baseURL: "https://sales-insight-automator-w0i1.onrender.com/"
 });
 
 export default API;
